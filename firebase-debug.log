@@ -1,0 +1,30 @@
+[debug] [2021-01-30T03:14:35.335Z] ----------------------------------------------------------------------
+[debug] [2021-01-30T03:14:35.344Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:imgbeautifull
+[debug] [2021-01-30T03:14:35.346Z] CLI Version:   8.7.0
+[debug] [2021-01-30T03:14:35.346Z] Platform:      win32
+[debug] [2021-01-30T03:14:35.346Z] Node Version:  v12.13.1
+[debug] [2021-01-30T03:14:35.351Z] Time:          Sat Jan 30 2021 10:14:35 GMT+0700 (Indochina Time)
+[debug] [2021-01-30T03:14:35.351Z] ----------------------------------------------------------------------
+[debug] [2021-01-30T03:14:35.352Z] 
+[debug] [2021-01-30T03:14:35.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-30T03:14:35.392Z] > authorizing via signed-in user
+[debug] [2021-01-30T03:14:35.393Z] [iam] checking project burnished-ray-176812 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-30T03:14:35.406Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/burnished-ray-176812:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-30T03:14:36.550Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 Jan 2021 03:14:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=852","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-30T03:14:36.556Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/burnished-ray-176812  
+ 
+[debug] [2021-01-30T03:14:37.199Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 Jan 2021 03:14:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'burnished-ray-176812'...
+[info] 
+[info] i  deploying hosting 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/burnished-ray-176812/overview
+[debug] [2021-01-30T03:14:37.424Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
